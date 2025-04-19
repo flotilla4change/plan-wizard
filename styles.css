@@ -2,7 +2,6 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
     margin: 0;
     padding: 20px;
 }
@@ -39,14 +38,13 @@ h1 {
 }
 
 .answer:hover {
-    background-color: #d4d4d4;
+    background-color: rgba(244, 239, 235, 0.1);
 }
 
 .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #2980b9;
-    color: white;
+    color: #F4EFEB;
     border: none;
     border-radius: 5px;
     cursor: pointer;
