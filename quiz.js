@@ -67,15 +67,15 @@ document.addEventListener('DOMContentLoaded', () => {
       answers: [
         {
           text: 'Under ten employees',
-          nextQuestionId: 'smallOrganisationPlan',
+          nextQuestionId: 'freeSignUpPlan',
         },
         {
           text: 'Ten to 25 employees',
-          nextQuestionId: 'mediumOrganisationPlan',
+          nextQuestionId: 'freeSignUpPlan',
         },
         {
           text: 'Over 25 employees',
-          nextQuestionId: 'largeOrganisationPlan',
+          nextQuestionId: 'freeSignUpPlan',
         },
       ],
     },
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
           text: 'No',
-          nextQuestionId: 'crewPassengerPlan',
+          nextQuestionId: 'freeSignUpPlan',
         },
         {
           text: "Yes, but I have a bit of money I'd like to contribute to the flotilla.",
@@ -175,6 +175,16 @@ document.addEventListener('DOMContentLoaded', () => {
       answers: [
         {
           text: 'COP30 bursary plan',
+          redirectUrl: 'https://flotilla4change.mn.co/plans/1496724',
+        },
+      ],
+    },
+    {
+      id: 'freeSignUpPlan',
+      question: 'We are no longer taking crew/passenger sign ups as spaces are limited. If you still want to join the community please apply for a bursary place:',
+      answers: [
+        {
+          text: 'Free sign up',
           redirectUrl: 'https://flotilla4change.mn.co/plans/1496724',
         },
       ],
